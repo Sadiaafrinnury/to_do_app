@@ -1,16 +1,24 @@
-# to_do_app
+#Flutter Todo App with Provider
+This repository contains a simple Todo App built using Flutter and the Provider package for state management. The app allows users to add, delete, and toggle the completion status of tasks.
 
-A new Flutter project.
+#Features
+Add new tasks
+Mark tasks as completed or incomplete
+Delete tasks
+Real-time updates using Provider for state management
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+#Screenshots
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+#Description
+main.dart: Entry point of the application.
+models/task.dart: Defines the Task model.
+providers/task_provider.dart: Contains the TaskProvider class that manages the state of tasks.
+screens/task_screen.dart: The main screen displaying the list of tasks.
+widgets/task_list.dart: Widget that builds the list of tasks.
+widgets/task_tile.dart: Widget that represents each task item in the list.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+#Using Provider for State Management
+In this app, Provider is used to manage the state of the tasks
